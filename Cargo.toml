@@ -1,0 +1,13 @@
+[package]
+name = "lau-animation"
+version = "0.1.0"
+edition = "2021"
+description = "Sprite/property animation system — keyframe interpolation, skeletal hints, procedural animation from vibe"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/lau-animation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+approx = "0.5"
